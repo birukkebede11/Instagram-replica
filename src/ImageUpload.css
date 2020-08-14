@@ -1,0 +1,31 @@
+.imageupload__container {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 500px;
+  border-top: 1px solid lightgray;
+}
+
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imageupload__text{
+    margin: 5px;
+}
+
+.imageupload__progress {
+  width: 100%;
+}
+
+@media only screen and (max-width: 437px) {
+    .imageupload__container {
+      margin-left: -50px;
+    }
+  }
